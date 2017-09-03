@@ -1,0 +1,6 @@
+package: github.com/imcom/zk-puller
+import:
+- package: github.com/samuel/go-zookeeper
+- package: github.com/go-redis/redis
+  version: ~6.6.0
+- package: github.com/golang/glog
